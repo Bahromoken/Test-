@@ -1,0 +1,83 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+header{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(per.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.main-nav{
+    float: right;
+    margin-top: 35px;
+    list-style: none;  
+}
+.main-nav li{
+    display: inline-block;
+}
+.main-nav li a{
+    padding: 5px 20px;
+    color: white;
+    font-size: 20px;
+    font-family: "Roboto",sans-serif;
+    text-decoration: none;
+}
+.main-nav li a:hover{
+    border: 3px solid white;
+}
+.row{
+    max-width: 1200px;
+    margin: auto;
+}
+.hero{
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 1200px
+}
+body{
+    font-family: monospace;
+}
+
+h1{
+    color: white;
+    margin-top: 270px;
+    font-size: 70px;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+.button{
+    margin-top: 30px;
+    margin-left: 440px;
+}
+.btn{
+    color: white;
+    padding: 10px 30px;
+    border: 1px solid white;
+    text-decoration: none;
+    font-size: 13px;
+    margin-right: 5px;
+    text-transform: uppercase;
+}
+
+.btn-one{
+  font-family: "Roboto", sans-serif;
+}
+.btn-two{
+    font-family: "Roboto", sans-serif;
+}
+.btn-one:hover{
+   background-color: chartreuse;
+    transition: all 0.5s ease-in;
+}
+.btn-two:hover{
+   background-color: chartreuse;
+    transition: all 0.5s ease-in;
+}
+
+
+
+
